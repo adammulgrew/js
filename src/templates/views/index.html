@@ -3,4 +3,20 @@ title: Home
 ---
 {% extends 'layouts/default.html' %}
 {% block content %}
+<style type="text/css">
+	.js-rise-on {
+		display: none;
+	}
+	.js-rise-on.is--on {
+		display: block;
+		background: red;
+		height: 25px;
+		width: 100%;
+		position: fixed;
+		bottom: 0;
+	}
+</style>
+<div style="height:2000px;width:100%;background:#f1f1f1;">
+	<div class="js-rise-on"></div>
+</div>
 {% endblock %}

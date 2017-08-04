@@ -1,7 +1,11 @@
 import 'es6-promise/auto';
+import riseOn from './require/rise-on';
 
 const start = () => {
-	console.log(`Hello world.`);
+	riseOn.init('.js-rise-on', {
+		offset: 500,
+		onClassName: 'is--on'
+	});
 };
 
 const init = () => {

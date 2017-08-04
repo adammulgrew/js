@@ -36,6 +36,7 @@
     "gulp-sourcemaps": "latest",
     "gulp-uglify": "latest",
     "gulp-util": "latest",
+    "lodash.throttle": "^4.1.1",
     "picturefill": "latest",
     "run-sequence": "latest",
     "storm-load": "latest",
